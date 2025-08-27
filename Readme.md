@@ -1,3 +1,8 @@
+Here’s a README template including sections and Markdown to display your three images: homepage, product page, and add new product.  
+Assume your images are named `homepage.png`, `product_page.png`, and `add_product.png`, and are placed inside an `images` folder in your repository.
+
+---
+
 # **Product Management System**
 
 ## 1. Introduction
@@ -23,3 +28,46 @@ The *Product Management System* is a web-based application developed using *Java
 - Eclipse IDE with Spring Boot plugin
 - MySQL Database Server
 - Maven for dependency management
+
+---
+
+## 5. Screenshots
+
+### Homepage
+![Homepage](https://github.com/anoushkaa26/Product-Management-/blob/dc409d036853f36e169684e793dbeaf0bff04af9/pd3.png)
+
+### Product Page
+![Product Page](https://github.com/anoushkaa26/Product-Management-/blob/dc409d036853f36e169684e793dbeaf0bff04af9/pd1.png)
+
+### Add New Product
+![Add New Product](https://github.com/anoushkaa26/Product-Management-/blob/dc409d036853f36e169684e793dbeaf0bff04af9/pd2.png)
+
+---
+
+## 6. Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/anoushkaa26/Product-Management-.git
+   ```
+2. **Configure the database:**
+   - Set your MySQL credentials in `application.properties`.
+3. **Install dependencies:**
+   ```bash
+   mvn install
+   ```
+4. **Run the application:**
+   ```bash
+   mvn spring-boot:run
+   ```
+5. **Access the app:**
+   - Open your browser and go to `http://localhost:8080/`
+
+---
+
+## 7. License
+
+This project is licensed under the MIT License.
+
+---
+
